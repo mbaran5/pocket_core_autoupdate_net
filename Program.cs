@@ -9,7 +9,7 @@ internal class Program
     private const string API_URL = "https://api.github.com/repos/mattpannella/pocket_core_autoupdate_net/releases";
 
     //private const string REMOTE_CORES_FILE = "https://raw.githubusercontent.com/mattpannella/pocket_core_autoupdate_net/main/auto_update.json";
-    private const string REMOTE_CORES_FILE = "https://github.com/mattpannella/pocket_core_autoupdate_net/blame/RetroDriven/auto_update.json";
+    private const string REMOTE_CORES_FILE = "https://raw.githubusercontent.com/mattpannella/pocket_core_autoupdate_net/RetroDriven/auto_update.json";
 
     private static async Task Main(string[] args)
     {
